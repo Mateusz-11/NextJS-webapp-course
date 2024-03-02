@@ -8,6 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* antialiased = Tailwind class which smooths out the font */}
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
